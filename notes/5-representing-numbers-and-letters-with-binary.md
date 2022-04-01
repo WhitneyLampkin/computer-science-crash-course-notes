@@ -1,0 +1,46 @@
+# Representing Numbers and Letters with Binary
+
+- Base 10 - decimal system 
+	- Each multiplier is 10x
+	- 1, 10, 100, 1000, etc.
+- Base 2 - binary system 
+	- Each multiplier is 2x
+	- 1, 2, 4, 8, 16, 32, 64, 128, etc.
+- Binary 
+	- Each 1 and 0 is a bit
+	- Therefore 8-bit uses the first 8 bits (1, 2, 4, 8, 16, 32, 64, 128)
+		- Lowest value is 0
+		- Highest value is 255
+		- Total values 256 or 2^8
+		- Anything using 8-bit was limited to 256 options
+	- 8-bit = a byte
+	- Byte Scale
+		- 1 bit
+		- Byte = 8-bit
+		- KB = 1000 bytes [Thousands]
+		- MB = 1,000,000 bytes [Millions]
+		- GB = 1,000,000,000 bytes [Billions]
+		- TB = 1,000,000,000,000 bytes [Trillions]
+	- Larger bit computers
+		- 32-bit = 4.3 billion different values
+			- This is reduced in half when representing positive & negative INTS
+			- The 1st bit is used for the sign
+		- 64-bit = 9.2 quintillion 
+- Memory addresses are used to store this data
+- Floating point numbers in 32-bit computers
+	- IEEE 754 Standard 
+	- 1 bit - sign
+	- 8 bits - exponent
+	- 23 bits - significand (significant digits)
+- Text
+	- Numbers are used to represent letters
+	- Francis Bacon (1600s) - used 5-bit sequences to encode English alphabet
+	- ASCII (American Standard Code  for Information Interchange)
+		- 1963
+		- 7-bit code stored 128 values
+		- Introduced interoperability allowing different computers from different companies to communicate with one another
+		- Limitation - only for English
+	- Extended ASCII
+		- Issues still persisted as new languages were coded
+	- Unicode - uses 16-bits that gives enough space for all languages
+- Ultimately, everything we see on a computer is simply a LONG sequence of bits (1s & 0s)
