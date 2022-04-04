@@ -1,0 +1,36 @@
+# Advanced CPU Designs
+
+- Modern processors have additional, complex circuits for more specific processing
+- As CPU processing speed increase, RAM becomes a bottleneck 
+	- The hold up is with getting data in and out of RAM
+- BUS - wire that sends data between CPU & RAM
+- Improving performance by improving processing of a single instruction 
+	- Cache - small RAM placed in the CPU to address the RAM bottleneck issue
+		- Stores a section of RAM for faster processing so electrons don’t have to flow through RAM and back to CPU again
+	- RAM - usually GBs
+	- Cache - usually MBs
+	- Cache Hit - when data is quickly retrieved from the cache instead of RAM
+	- Cache Miss - retrieving data from RAM when it’s not found in the Cache
+	- Dirty Bit - flag that represents whether or not cache data is synced with RAM
+	- Parallelized operations - uses batches to improve throughput 
+	- Out of Order Execution
+	- Pipelining
+	- Conditional Jump Instructions 
+	- Speculative Execution 
+	- Pipeline Flush
+	- Branch
+	- Branch Predictions
+	- Superscaler
+	- Using multiple ALU allows for parallel processing of mathematical operations
+- Improving performance by running multiple instructions at a time
+	- Multi-core processors - increase computer performance by running several instructions at one time
+	- Dual-core
+	- Quad-core
+	- Multiple CPUs
+	- Super computers 
+		- Sunway Taihulight (China)
+		- Largest computer
+		- 40,960 CPUs
+			- Each with 256 cores
+		- 10,000 cores total
+- Flops 
