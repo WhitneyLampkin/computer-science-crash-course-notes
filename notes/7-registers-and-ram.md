@@ -1,0 +1,39 @@
+# Registers and RAM
+
+- Random Access Memory (RAM) - stores active in-use memory as long as the power stays on
+	- Short term or working memory
+	- Keeps track of what’s happening now
+	- Larger chunks of memory than registers
+- Types of RAM
+	- SRAM - Static Random Access Memory (uses latches)
+	- DRAM
+	- Flash Memory
+	- NVRAM
+- Persistent Memory - can survive without power
+- Building a circuit that stores 1-bit of information
+		- OR gate - circuit that records 1
+		- AND gate - circuit that records 0
+	- AND-OR LATCH
+		- Takes 2 inputs (SET and RESET)
+		- SET input -sets output to 1
+		- RESET input - sets output to 0
+		- If SET and RESET both equal 0 then the circuit outputs the LAST output ==> MEMORY!
+		- Latch is used because it "latches onto" a value and stays that way
+	- GATED LATCH
+		- Data Input - 1-bit that represents the SET and RESET values
+		- Write enable - 1-bit that determines if the data can be changed by opening or closing the circuit
+- Register - small, linear chunks of memory used to store a single value
+	- group of latches that hold a single number
+	- Width - number of bits in a register
+- 16x16 LATCH MATRIX
+	- Latches arranged in a grid instead of a row
+	- 16x16 latch matrix used for 256 bits
+	- Turning the "wires" for both the row and column to 1 of a latch activates it
+	- To enable writing, the row/column wires and the write enable wire must be turned on
+- Memory Address
+	- Defines the intersection for the row & column of a latch matrix
+	- In a 16x16 matrix, 4-bit numbers are used for rows and columns to allow us to represent 0-16
+	- The full latch address is 8-bit with the row written first then column [RRRRCCCC]
+	- Latch at row - 12 & column 8 is 11001000
+- Multiplexers - used to select the cols and rows in matrixes from the 4-bit inputs that make up the 8-bit address
+- Small packages of memory are repackaged over and over again to get our larger, more powerful computers
