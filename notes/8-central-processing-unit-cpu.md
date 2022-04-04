@@ -1,0 +1,36 @@
+# The Central Processing Unit (CPU)
+
+- CPU - processor used to executes programs
+- Microarchitecture - high level view of CPU
+	- RAM - for this example we use 16 memory locations each having 8-bits
+	- Four 8-bit Memory Registers (Registers A, B, C, D)
+		- Used to temporarily store and manipulate values
+		- Instruction Table - defines instructions supported by the CPU and their IDs
+			- Stored in 8-bits
+			- First four bits store the operation code
+			- The second four bits store the address
+	- Instruction Register – stores the 8-bit code for the instruction
+	- Instruction Address Register
+	- NOTE: All registers start with 0s when computer boots
+- Phases of Computer Processing
+	- Fetch Phase - first instruction 
+		- 00000000 is sent from the Instruction Address Register to the RAM and returns the data at that address
+		- The data returned from RAM is input into Instruction Register to be executed
+	- Decode Phase - Opcode (first 4-bits from the instruction register) is used to run the corresponding instruction from the instruction table
+	- Execute Phase - the RAM address from the instruction register is used to retrieve the value at that address in RAM and load it into Register A
+	- Execution phase end when the value of the instruction register is incremented by 1
+	- This full package is know as a control unit
+- Control Unit - directs the different parts of the CPU like an orchestra director
+	- An ALU is needed for any add instructions in the instructions table
+- Clock - keeps everything in sync
+	- Clock Speed - speed at which CPU carries out a fetch-decode-execute cycle (Hz)
+- Intel 4004 - first, single-chip 4-bit CPU (1971)
+	- 740 kHz = 740,000 cycles per second
+	- Today’s electronics can perform billions of CPU cycles per second with a few GHz
+- Overclocking CPUs - modifying CPU clock to speed up the tempo of cycles
+	- Can lead to overheating or gobbledygook
+- Under-clocking CPU - saves battery power
+- Dynamic Frequency Scaling - how modern processors increase/decrease clock speed
+- CPU chip 
+	- Packages up everything mentioned before (except the RAM) into a new unit
+- This CPU is a simplified one compared to modern processors
