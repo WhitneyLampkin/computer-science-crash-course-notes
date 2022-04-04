@@ -1,0 +1,28 @@
+# Early Programming
+
+- How are programs loaded into computer memory?
+- Programmable Textile Loom
+	- Joseph Marie Jacquard
+	- First programmable machine
+- Control Panel - sockets used by programmers to plug in cables to pass values and signals into different parts of the machine
+	- Also known as Plug Boards
+- The Eniac also used plug boards
+	- Could take up to 3 weeks to get the Eniac program to run
+	- Weeks of downtime needed to switch programs
+- 1940s/50s memory was smaller and cheaper allowing programmers to store programs in memory vs. on physical plug boards
+	- Stored program conouters (?)
+	- Von Newman Architecture (1948) - storing programming data in single shared memory
+		- This is what was built in Lesson 8
+		- Components
+			- ALU
+			- Data registers
+			- Instruction register
+			- Instruction address register
+			- Memory storage for data and instructions
+- Punch cards & punch card readers in most computers by 1980s
+- US Air Force SAGE Air Defense System (1955) - largest program on punch cards (used over 62,500 ~ 5MB of data)
+- Punch paper tape
+	- Bugs were patched with literal patches of tape
+- Panel programming
+- Altair 8800 - first commercial home computer based on switches used to write the opcodes into memory (1975)
+- A simply way to write programs was needed
