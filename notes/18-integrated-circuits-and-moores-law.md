@@ -1,0 +1,42 @@
+# Integrated Circuits & Moore's Law
+
+- Discrete Components- how computers were initially build from individual parts and wired together
+- Tyranny of Numbers
+- 1950s - transistors began to replace vacuum tubes in computers
+- 1959 - IBM upgraded vacuum-tube-based “709” computers to transistors in I M 1790
+- 1958 - Jack Kilby at Texas Instruments
+	- Integrated electronic components 
+	- Integrated Circuits (IC)
+		- “Legos for computer engineers”
+	- Used Germanium
+- 1959 - Fairchild Semiconductor made ICs practical
+	- Led by Robert Noyce
+	- Used Silicon
+- Printed Circuit Boards (PCBs) - connect ICs with metal wires that are etched into them
+- Photolithography - uses light to transfer complex patterns to a material (like semiconductors)
+- Wafer - thin slice of silicon
+- How semiconductors are made
+	- Silicon wafer
+		- A single wafer creates dozens of ICs that are later cut into microchips
+	- Oxide layer coating
+	- Photoresist layer
+	- Photomask
+	- Acids - washes away unwanted photoresist 
+	- Doping with different gases
+	- Channels
+	- Bipolar Junction Transistor
+- 1950s - ICs had 5 transistors
+- 1960s - ICs had over 100
+- 1965 - Gordan Moore: every 2 years 2x transistors can fir unto chips (Moore’s Law)
+- 1968 - Robert Noyce & Gordan Moore founded Intel (Integrated Electronics)
+- Microprocessor - processors that are integrated circuits (ICs)
+- COU transistor count in 1 IC  over the years
+	- 1980s - 30,000
+	- 1990s - 1 million
+	- 2000s - 30 million
+	- 2010 - 1 Billion
+- VLSI (Very Large Scale Integrated) software (1979s) used to automatically generate chip designs
+- Logic Synthesis
+- The end of Moore’s Law
+	- Size limits of the photomask
+	- Quantum tunneling - electrons jump the gaps causing circuit leaks

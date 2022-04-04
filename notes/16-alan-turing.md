@@ -1,0 +1,33 @@
+# Alan Turing
+
+- Father of computer science 
+- Founded many of the concepts
+- Decision Problem - is there an algorithm that takes a statement written in formal logic and produces “yes” or “no” that’s always accurate
+	- 1935
+	- As known as Entscheidung Problem
+	- Alonzo Church (1935) - first solution
+		- Used Lambda Calculus
+		- Determine that it was impossible
+	- Turing Machine - hypothetical computing machine Turing used to solve the Decision problem
+		- Used simple, yet powerful mathematical model of computation
+		- Used different mathematics but equivalent to lambda calculus in terms of power
+		- Proved that the machine could perform any computation if given enough time and memory (like humans)
+		- The first idea of a general purpose computer
+- Turing Complete - any computer as powerful as the Turing Machine
+	- All modern computers
+- Halting Problem - is there is algorithm that will determine if a Turing Machine will run forever based on its inout and description of the machine?
+	- Turing decided it was unsolvable
+- Bizarro Machine
+	- Proves that not all problems can be solved with computation even though the Turing machine could perform any computation it still could solve all problems
+- Church-Turing Thesis
+- PHD at Princeton 1936 - 1938
+- Engima  machines - used to code German communication during WWII
+	- Encryption- scrambling text using an algorithm 
+	- Decryption- unscrambling text using an algorithm 
+- The Bombe - electromechanical computer by Turing
+- Turing also assisted with the Manchester Mach 1 after the war
+- 1950 - Artificial Intelligence
+	- Turing Test - AI convincing a human that it was human
+	- CAPTCHA - Completely Automated Public Turing Test
+- 1941 - Turing committed suicide at 41
+- Turing Award - highest award in computer science

@@ -1,0 +1,39 @@
+# Data Structures
+
+- Data structures - used to organize data in memory
+- Array - a series of values stored in memory
+	- Index
+	- Each value of an array is stored in its own memory location
+	- Must be stored in order in memory
+		- Difficult to add new values in the middle
+- Strings - arrays of characters
+	- Null Character - End with a 0 in memory (binary not character 0)
+	- Stored the same as an array
+	- String concatenation functions - add strings together
+	- Used to build more complicated data structures without the limitations of arrays which are not good for inserts and deletes
+- Types of Structs
+	- Node - struct that stores the value and a pointer
+		- Pointer - knows the memory address of the next items value
+		- Used to create linked lists
+- Linked List 
+	- Circular
+	- Terminated with NULL (binary 0)
+	- Easier to insert/delete items by changing pointer to the next item
+- Matrix - array of arrays
+	- Five dimensional Array
+- Struct - groups of data bundled together in memory (compound data structures)
+- Queue
+	- FIFO - first in, first out
+- Stack
+	- LIFO - last in, first out
+	- Data is pushed on and popped off stacks
+- Trees
+	- Struct with 2 pointers
+	- Root - node at the first top
+	- Children nodes - other nodes
+	- Parent nodes - nodes above children
+	- Leaf nodes - nodes at the bottom with no children
+	- Binary tree - each parent only has 2 children nodes
+- Graphs
+	- Nodes with many pointers
+- Red-Black Trees & Heaps
